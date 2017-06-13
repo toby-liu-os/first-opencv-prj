@@ -21,10 +21,10 @@
 int main() {
     cv::namedWindow("Display Window", cv::WINDOW_AUTOSIZE);
     /*
-	cv::Mat image(cv::Size(640, 480), CV_8UC3);
-	image = cv::Scalar(255, 0, 0);
+    cv::Mat image(cv::Size(640, 480), CV_8UC3);
+    image = cv::Scalar(255, 0, 0);
     cv::imshow("Display Window", image);
-	*/
+    */
 
     cv::Mat frame;
     cv::VideoCapture cap;
@@ -36,11 +36,11 @@ int main() {
     }
 
     while (true) {
-    	cap.read(frame);
-    	cv::imshow("Display Window", frame);
-    	if (cv::waitKey(10) == 27)
-    		break;
+        cap.read(frame);
+        cv::imshow("Display Window", frame);
+        if (cv::waitKey(10) == 27)
+            break;
     }
 
-	return 0;
+    return 0;
 }
