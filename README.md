@@ -1,6 +1,6 @@
 ## First OpenCV Project
 
-[first-opencv-prj](https://github.com/toby-liu-os/first-opencv-prj) is used as an example of simple OpenCV project, which capture video frames from webcam and display the frames on a window.
+[first-opencv-prj](https://github.com/tobyliu-sw/first-opencv-prj) is used as an example of simple OpenCV project, which capture video frames from webcam and display the frames on a window.
 
 ### System environment
 
